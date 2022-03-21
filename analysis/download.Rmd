@@ -1,0 +1,26 @@
+---
+title: "download"
+author: "LucianoRogerio"
+date: "2022-03-21"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Download data from Cassavabase
+
+```{r Example}
+
+
+```
+
+
+
+```{r Example of requesting data from R}
+
+data(iris)
+head(iris)
+colMeans(iris[,-5])
+
+```
+
